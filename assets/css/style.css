@@ -1,0 +1,120 @@
+/*------------------------------------Colour*/
+
+body {
+    background-color: #e9e9e9e5;
+}
+
+.bg-colour-title  {
+    background-color: blue;
+}
+
+.main-title {
+    color: #fafafa;
+}
+
+.about-colour {
+    color: #424242c8;
+}
+
+.music-colour {
+    color: #424242c8;
+}
+
+.footer-colour {
+    background-color: blue;
+}
+
+.footer-title {
+    color: #fff;
+}
+/*------------------------------------Heading*/
+
+.main-title {
+    text-align: center;
+    font-size: 45px;
+}
+
+.title-header {
+    height: 115px;
+}
+
+.slogan {
+    color: #fafafa;
+    font-size: 30px;
+}
+
+
+/*------------------------------------About Style*/
+
+.container {
+    padding-top: 50px; 
+    margin-top: 30px;
+    width:75%;
+
+}  
+
+
+.about-heading {
+    line-height: 20px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.about-text {
+    text-align: right;
+}
+
+.music-heading {
+    line-height: 20px;
+    margin-bottom: 50px;
+    font-weight: 700; 
+    text-align: left;
+}
+.music-text {
+    text-align: right;
+}
+
+
+
+/*------------------------------------upcoming events*/
+
+.ue-header {
+    font-size: 30px;
+}
+
+.upcoming-events {
+    text-align: center;
+    color: #424242c8;
+    padding: 20px;
+}
+
+.gig-info {
+    background-color:#3b3b3b;
+    color: #fff;
+}
+
+.gig-mid {
+    background-color: #575656;
+    color: #fff;
+}
+
+/*------------------------------------Footer*/
+
+footer {
+    width: 100%;
+    padding: 20px;
+    height: 60px;
+}
+
+.footer-title {
+    text-align: left;
+    line-height: 40px;
+    font-size: 600;
+    text-transform: capitalize;
+}
+
+footer-socials {
+    text-align: center;
+    
+}
