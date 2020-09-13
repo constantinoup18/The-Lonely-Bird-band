@@ -1,14 +1,14 @@
 /*------------------------------------Colour*/
 
 body {
-    background-color: #e9e9e9e5;
-}
-
-.bg-colour-title  {
-    background-color: blue;
+    background-color: #ada6a6e5;
 }
 
 .main-title {
+    color: #fafafa;
+}
+
+nav a {
     color: #fafafa;
 }
 
@@ -20,12 +20,18 @@ body {
     color: #424242c8;
 }
 
-.footer-colour {
-    background-color: blue;
-}
 
 .footer-title {
+    color: #fafafa;
+}
+
+.gallery {
+    background-color: #575656;
     color: #fff;
+}
+
+h5 i {
+    color:rgb(145, 5, 5);
 }
 /*------------------------------------Heading*/
 
@@ -38,11 +44,16 @@ body {
     height: 115px;
 }
 
-.slogan {
-    color: #fafafa;
-    font-size: 30px;
+.main-title:hover {
+    color:rgb(145, 5, 5);
 }
 
+nav a {
+    text-align: left;
+}
+nav a:hover{
+    color: rgb(145, 5, 5);
+}
 
 /*------------------------------------About Style*/
 
@@ -59,6 +70,12 @@ body {
     margin-bottom: 50px;
     font-weight: 700;
     text-align: left;
+}
+
+.band-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
 }
 
 .about-text {
@@ -90,14 +107,61 @@ body {
 }
 
 .gig-info {
-    background-color:#3b3b3b;
+    background-color:#575656;
     color: #fff;
 }
 
-.gig-mid {
-    background-color: #575656;
-    color: #fff;
+
+/*------------------------------------upcoming events hover*/
+
+.gig-info:hover {
+    background-color:rgba(0, 0, 0, 0.747);
+    border: 1px solid rgb(145, 5, 5);
 }
+
+/*------------------------------------Gallery*/
+
+.gallery {
+    border: 1px solid rgb(145, 5, 5);
+    padding-bottom: 10px;
+}
+
+/*------------------------------------Images*/
+
+.gallery img {
+    height: 250px;
+    width: 250px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+
+/*------------------------------------Contact*/
+
+.contact-head {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(145, 5, 5);
+}
+
+.form-outer {
+    padding: 120px;
+    background-color: #333333;
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #3b3b3b;
+    
+}
+
+.contact-form {
+    padding: 120px;
+    background-color: #575656;
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid #3b3b3b;
+}
+
 
 /*------------------------------------Footer*/
 
@@ -105,6 +169,7 @@ footer {
     width: 100%;
     padding: 20px;
     height: 60px;
+    
 }
 
 .footer-title {
@@ -112,9 +177,39 @@ footer {
     line-height: 40px;
     font-size: 600;
     text-transform: capitalize;
+    display: inline;
 }
 
-footer-socials {
+.footer-socials {
     text-align: center;
-    
+    color: #fff;
 }
+ footer a{
+     color: rgb(145, 5, 5);
+ }
+
+/*------------------------------------Media Query*/
+
+
+@media(min-width: 920px) {
+    nav {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+}
+
+
+@media(min-width: 920px) {
+   .container  {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+}
+
+
+
+

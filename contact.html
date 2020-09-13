@@ -10,10 +10,10 @@
     <title>The Lonely Bird</title>
 </head>
 <body>
- <nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-dark bg-dark navbar-fixed-top">
   <div class="container-fluid bg-colour-title">
     <div class="navbar-header">
-      <a class="navbar-brand main-title" href="#">The Lonely Bird</a>
+      <a class="navbar-brand main-title" href="index.html">The Lonely Bird</a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="index.html">Home</a></li>
@@ -22,14 +22,47 @@
     </ul>
   </div>
 </nav>
-    
-    
-    
+<div class="form-outer">
+<form class="contact-form">
+    <h2 class="contact-head">Want us to play at your next party or event? book us now!</h2>
+    <hr>
+    <div class="form-group">
+        <label for="fname">First Name</label>
+        <input type="text" class="form-control" id="fname" placeholder="Enter Your First Name">
+    </div>
+    <div class="form-group">
+        <label for="lname">Last Name</label>
+        <input type="text" class="form-control" id="lname" placeholder="Enter Your Last Name" required>
+    </div>
+     <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter Email" required>
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+         <div class="form-group">
+        <label for="mobile">Phone Number <small>(Optional)</small></label>
+        <input type="phone-number" class="form-control" id="phone" placeholder="Enter Phone Number">
+    </div>
+    <div clss="form-group">
+    <label for="exampleFormControlTextarea1">Enter Venue and Dates</label>
+    <textarea class="form-control" required id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <br>
+    <button type="submit" class="btn btn-danger">Let's Rock!</button>
+    </form>
+    </div>
 <footer>
-    <h4 class="footer-colour footer-title">Support us on Social Media!</h4>
+<div class="row">
+    <div class="col footer-dark bg-dark">
+    <h4 class="footer-title">Support us on Social Media!</h4>
         <p class="footer-socials">
-            
+            <a href="https://www.instagram.com/" target="_blank">  <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/" target="_blank">  <i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.twitter.com/" target="_blank">  <i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com/" target="_blank">  <i class="fa fa-youtube" aria-hidden="true"></i></a>
         </p>
+    </div>
+</div>
 </footer>
 </body>
 </html>
