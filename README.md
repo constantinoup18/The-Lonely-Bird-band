@@ -20,7 +20,7 @@ colour choices in the different sections alongside an off-grey text colour.
 
 For simplicity with a hint of colour, the website on desktop home-page consists of a sleek design. the webpage background colour, so as to be gentle 
 on the users eyes, is an off white with a grey-black text. the blue heading provides a splash of colour and is easy to take in visually.
-The "upcoming events" section is a bold green with a vary of grey and black colour scheme as to draw attention to it but still kep it visually pleasing.
+The "upcoming events" section is a vary of grey and black colour scheme as to draw attention to it but still kep it visually pleasing.
 the home page provides a small image of the band and breif detail of who they are and what they do. the image is wrapped in-between the text to provide detail and maximize space.
 
 Users want a website that is easy to use. The Home, Contact and Gallery pages all work to guide users to each page seemlessly. and on mobile the menu button 

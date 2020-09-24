@@ -64,6 +64,9 @@ nav a:hover{
 
 }  
 
+.left-col {
+    width: 50%;
+}
 
 .about-heading {
     line-height: 20px;
@@ -72,14 +75,13 @@ nav a:hover{
     text-align: left;
 }
 
-.band-image img {
-    width: 300px;
-    height: 300px;
-    border-radius: 8px;
-}
 
 .about-text {
     text-align: right;
+}
+
+.right-col{
+    width: 50%;
 }
 
 .music-heading {
